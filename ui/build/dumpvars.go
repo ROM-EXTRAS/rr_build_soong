@@ -145,6 +145,7 @@ var BannerVars = []string{
 	"HOST_CROSS_2ND_ARCH",
 	"HOST_BUILD_TYPE",
 	"BUILD_ID",
+        "BUILD_USERNAME",
 	"OUT_DIR",
 	"AUX_OS_VARIANT_LIST",
 	"TARGET_BUILD_PDK",
@@ -152,6 +153,8 @@ var BannerVars = []string{
 	"PRODUCT_SOONG_NAMESPACES",
 	"WITH_SU",
 	"WITH_GMS",
+	"BOARD_PRODUCTIMAGE_EXTFS_INODE_COUNT",
+	"BOARD_PRODUCTIMAGE_PARTITION_RESERVED_SIZE",
 }
 
 func Banner(make_vars map[string]string) string {
